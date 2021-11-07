@@ -1,8 +1,8 @@
 ---
-title: Landing
+title: Why berries?
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+description: null
+image: assets/images/pic12.jpg
 nav-menu: true
 ---
 

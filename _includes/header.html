@@ -2,12 +2,31 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+<header id="header"{% if page.layout == "landing" %} class="alt style2 py-3"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
+	<div class="d-flex align-items-center">
+
+		<!-- <a href="#" class="button special small h-75">EN</a> -->
+	</div>
+
+	<nav class="d-flex justify-content-end align-items-end">
+	<!-- <div class="d-flex"> -->
+		<div class="d-flex justify-content-end align-items-end">
+			<a href="#" class="button special fit mb-0">EN</a>
+			<a href="#" class="button fit mb-0">PL</a>
+			<ul class="actions small">
+				<li>
+				</li>
+				<li>
+				</li>
+			</ul>
+		</div>
 	</nav>
+
+	<!-- <a href="#menu">Menu</a>
+	</nav> -->
 </header>
+
 
 <!-- Menu -->
 <nav id="menu">
