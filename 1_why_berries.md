@@ -1,7 +1,7 @@
 ---
-title: Why berries?
-layout: landing
-description: null
+title: We are Ribes Technologies
+layout: landing_2
+description: Agro-tech start up, bringing automation to berry plantations.
 image: assets/images/pic12.jpg
 nav-menu: true
 ---
