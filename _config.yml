@@ -1,17 +1,17 @@
 # site settings
 title: Ribes Technologies
-subtitle:
-email: contact@ribes-tech.com
+subtitle: Agro-tech start up, bringing automation to berry plantations.
+email: contact@ribestech.com
 description: Agro-tech start up, bringing automation to berry plantations
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: ul. Jana Matejki 34/514
-city: Warsaw
+street_address: Droga Męczenników Majdanka 61/1
+city: Lublin
 # state: TN
-zip_code: 55555
+zip_code: 20-325
 country: Poland
-phone: (716) 555-5555
+phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

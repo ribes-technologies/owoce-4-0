@@ -15,7 +15,9 @@ nav-menu: true
 		<!-- <header class="major">
 			<h2>Leading innovation in agriculture</h2>
 		</header> -->
-		<p class="text-center">We are aware of the challenges berry plantators across the world are facing, firsthand. We are here to <span class="font-weight-bold">address them</span>.</p>
+		<p class="text-center">
+		<!-- <p> -->
+		<strong>We are aware of the challenges berry plantators across the world are facing, firsthand. We are here to address them.</strong></p>
 		<!-- <p>The goal remains the same: to deliver a healthy and environmentally friendly fruit to our customers.</p> -->
 		<!-- <p>We are here to provide a tool that adresses these problems.</p> -->
 	</div>
@@ -32,10 +34,10 @@ nav-menu: true
 				<header class="major">
 					<h3>Our Solution</h3>
 				</header>
-				<p>Autonomous protection of berry plantations.<br>
-				Visual recognistion of diseases, powered by AI to quickly identify diseases on bushes.
+				<p>Autonomous protection of berry plantations.<br><br>
+				Visual recognistion of the plants, powered by AI, to quickly identify diseases attacking plantations.
 				Precision application of plant health products to minimise the cost.
-				Atonomus, electricly powered vehicle to keep the plantation under constant supervision.</p>
+				Electricly powered, autonomic vehicle to keep the plantation under constant supervision.</p>
 				<!-- <ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul> -->
@@ -93,7 +95,7 @@ nav-menu: true
 										<p class="text-none">Academic lecturer</p>
 										<!-- <p class="text-none">Counselor in European Parliament’s Agriculture Committee</p> -->
 										<p class="text-none">Counselor in European Parliament</p>
-										<p class="text-none">Owner of 40ha of blakcurrant plantations</p>
+										<p class="text-none">Owner of 40ha of blakcurrant plantation</p>
 									</header>
 								</div>
 							</div>
@@ -101,11 +103,11 @@ nav-menu: true
 				<!-- </div> -->
 					<div class="col-md-7">
 						<blockquote class="mb-0">
-							A need for the innvovation in agriculture is growing. It is present on every level.<br><br>
+							A need for innvovation in agriculture is growing. I've experienced it throughout my career.<br><br>
 							Academically, where I perform the research.<br>
-							Politcally, when working with European Parliament in shaping the legislation.<br>
+							In European Parliament, shaping the future legislation.<br>
 							Most importantly, directly on the bluccarant plantation that has been in our family for generations.<br><br>
-							Berry plantations urgently need a helping hand from technology, to reduce costs and become environmentally friendly.
+							That's why I am certain, that berry plantations urgently need a helping hand from technology, to reduce costs and become environmentally friendly.
 						</blockquote>
 					</div>
 				</div>
@@ -155,7 +157,7 @@ nav-menu: true
 			We are open for cooperations. If you want to learn more about company and product, we would love to share our pitch deck with you.
 		</p> -->
 		<div class="mt-5"></div>
-		<form action="https://formspree.io/{{ site.email }}" method="POST">
+		<form name="pitch-deck-form" method="POST" data-netlify="true">
 			<div class="row justify-content-md-center">
 				<div class="col-md-6">
 					<div class="row">
@@ -217,13 +219,13 @@ nav-menu: true
 				</div>
 			<!-- </section> -->
 			<!-- <section> -->
-				<div class="col">
+				<!-- <div class="col">
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
 					<h3>Phone</h3>
 					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
 				</div>
-				</div>
+				</div>-->
 			<!-- </section> -->
 			<!-- <section> -->
 				<div class="col">
@@ -234,14 +236,11 @@ nav-menu: true
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
 					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }}
-					{% endif %}
 					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
+					    {{ site.zip_code }}
+					{% endif %}
+					{% if site.city %}
+					    {{ site.city }}<br />
 					{% endif %}
 					{% if site.country %}
 					    {{ site.country }}
