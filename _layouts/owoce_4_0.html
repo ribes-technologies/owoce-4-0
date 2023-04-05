@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="{{ "assets/css/owoce_4_0.css" | relative_url }}" />
+    </head>
+
+    <body>
+      <div class="container">
+        {% include owoce_4_0_header.html %}
+        <div class="row justify-content-center mt-2">
+          <div class="col col-md-10">
+            <div class="card bg-dark text-white">
+              <img src="{% link assets/images/owoce_4_0_banner.jpg %}" class="card-img opacity-50" alt="Owoce czarnej porzeczki wiszące na krzaczku." />
+              <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                <h1 class="card-title text-center">Owoce 4.0</h1>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
